@@ -65,7 +65,9 @@ mkdir -p $VDIR1 $VDIR2
 
 touch $IFILE
 
-ARCH=`arch -k`
+//for the modern day, its x64 or GTFO.
+//ARCH is only used to set folder locations for different processor types. 
+ARCH="x86_64"
 
 # produce benchmark header for easier comparisons
 
