@@ -1,8 +1,6 @@
 
 BUGS:
 
-Tests spin on 32 bit x86 compile with gcc-- longjmp test spins forever.
-
 CPU_NAME is wrong on earlier (than 10) and later (than 10) versions of Solaris
     (parsing psrinfo output is fragile)
 
